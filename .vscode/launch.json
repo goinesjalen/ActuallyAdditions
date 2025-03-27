@@ -1,0 +1,115 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - actuallyadditions",
+        "order": 0
+      },
+      "projectName": "actuallyadditions",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\Goine\\Desktop\\Misc\\mods\\ActuallyAdditions\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\Goine\\Desktop\\Misc\\mods\\ActuallyAdditions\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dactuallyadditions%%C:\\Users\\Goine\\Desktop\\Misc\\mods\\ActuallyAdditions\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client2",
+      "presentation": {
+        "group": "Mod Development - actuallyadditions",
+        "order": 1
+      },
+      "projectName": "actuallyadditions",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\Goine\\Desktop\\Misc\\mods\\ActuallyAdditions\\build\\moddev\\client2RunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\Goine\\Desktop\\Misc\\mods\\ActuallyAdditions\\build\\moddev\\client2RunVmArgs.txt",
+        "-Dfml.modFolders\u003dactuallyadditions%%C:\\Users\\Goine\\Desktop\\Misc\\mods\\ActuallyAdditions\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Data",
+      "presentation": {
+        "group": "Mod Development - actuallyadditions",
+        "order": 2
+      },
+      "projectName": "actuallyadditions",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\Goine\\Desktop\\Misc\\mods\\ActuallyAdditions\\build\\moddev\\dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\Goine\\Desktop\\Misc\\mods\\ActuallyAdditions\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dactuallyadditions%%C:\\Users\\Goine\\Desktop\\Misc\\mods\\ActuallyAdditions\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - actuallyadditions",
+        "order": 3
+      },
+      "projectName": "actuallyadditions",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\Goine\\Desktop\\Misc\\mods\\ActuallyAdditions\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\Goine\\Desktop\\Misc\\mods\\ActuallyAdditions\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dactuallyadditions%%C:\\Users\\Goine\\Desktop\\Misc\\mods\\ActuallyAdditions\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - actuallyadditions",
+        "order": 4
+      },
+      "projectName": "actuallyadditions",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\Goine\\Desktop\\Misc\\mods\\ActuallyAdditions\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\Goine\\Desktop\\Misc\\mods\\ActuallyAdditions\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dactuallyadditions%%C:\\Users\\Goine\\Desktop\\Misc\\mods\\ActuallyAdditions\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}
